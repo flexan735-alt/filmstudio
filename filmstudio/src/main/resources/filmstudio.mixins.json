@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.filmstudio.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LivingEntityMixin",
+		"PlayerMixin",
+		"ItemEntityMixin",
+		"ExperienceOrbMixin",
+		"AvatarAccessor"
+	],
+	"injectors": { "defaultRequire": 1 }
+}

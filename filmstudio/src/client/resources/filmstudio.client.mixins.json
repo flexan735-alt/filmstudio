@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "dev.filmstudio.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractClientPlayerMixin"
+	],
+	"injectors": { "defaultRequire": 1 }
+}

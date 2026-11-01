@@ -1,0 +1,7 @@
+{
+	"key.category.filmstudio.main": "Film Studio",
+	"key.filmstudio.open": "Open Film Studio",
+	"key.filmstudio.record": "Start / stop recording",
+	"key.filmstudio.stop": "Stop playback",
+	"entity.filmstudio.model_actor": "Model Actor"
+}

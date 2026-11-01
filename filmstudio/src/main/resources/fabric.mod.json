@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "filmstudio",
+	"version": "${version}",
+	"name": "Film Studio",
+	"description": "A complete in-game film studio: record actors, edit scenes, play them back with real physics, custom skins and 3D models, all from a dashboard UI.",
+	"authors": ["Film Studio"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.filmstudio.FilmStudio"],
+		"client": ["dev.filmstudio.client.FilmStudioClient"]
+	},
+	"mixins": [
+		"filmstudio.mixins.json",
+		{ "config": "filmstudio.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
